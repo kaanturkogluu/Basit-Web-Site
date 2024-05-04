@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+
+    font-family: cursive;
+
+    font-size: 1.6rem;
+    background-color: rgb(219, 213, 213,0.7) ;
+    color: black;
+
+}
+
+main {
+    margin: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(52, 153, 153, .7);
+    color: #fff;
+    margin-bottom: 35px;
+
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    font-size: 18px;
+    gap: 1em;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+.logo img {
+    height: 55px;
+    width: 55px;
+    border-radius: 35px;
+}
+
+.logo h2 {
+    display: inline;
+    position: relative;
+    top: -15px;
+}
+
+#iletisim {
+    text-align: center;
+
+    background-color: rgb(122, 130, 233);
+    color: white
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+#iletisim a,
+i {
+    margin: 10px;
+}
+
+#iletisim i:hover {
+    cursor: pointer;
+}
+
+/*Giriş Kismi*/
+header .bg-image {
+    position: absolute;
+
+    background-image: url(header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 45rem;
+    opacity: 0.82;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+header h1 {
+    padding: 9rem;
+    padding-bottom: 0;
+}
+
+header {
+    height: 45rem;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 45px;
+
+}
+
+header p {
+
+    position: relative;
+    top: 145px;
+    z-index: 1;
+    color: rgb(247, 229, 229);
+}
+
+/* 3 e bölme*/
+.col3 {
+    display: inline-block;
+    max-width: 30%;
+    width: 25%;
+    height: 45rem;
+    margin: 4%;
+    
+    
+    text-align: center;
+    
+    padding-right: 10px;
+    padding-left: 10px;
+
+    box-shadow: rgb(102, 94, 94) 2px 3px;
+}
+
+.col3 a {
+    color: rgb(78, 74, 74);
+     
+    position: relative;
+     
+    display: inline;
+
+}
+
+.col3 img {
+    display: inline-block;
+    width: 95% !important;
+    height: 55% !important;
+    max-height: 285px;
+    max-width: 100%;
+
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    border-style: none;
+}
+
+.col3 h2,
+p,
+a {
+    display: inline-block;
+    font-size: 15px;
+}

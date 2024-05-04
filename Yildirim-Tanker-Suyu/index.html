@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="raquun.net">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web.css">
+    <title>Yıldırım Su Hizmetleri</title>
+
+    <meta name="description" content="  İstanbul Avrupa  Tanker Havuz Suyu
+    Tekirdağ 
+    Esenyurt 
+    Beylikdüzü 
+    Avcılar 
+    Çatalca 
+    Esenyurt 
+    Küçükçekmece 
+    Bakırköy 
+    Bahçeşehir 
+    Maramara Ereğlisi
+    Çorlu 
+    Çerkezköy
+     Ergene
+    "/>
+
+    <link rel="icon" sizes="72x72" href="img/favaicon.png">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="google-site-verification"
+        content="Yıldırım Su Hizmetleri , İstanbul Avrupa Yakası Havuz Dolumu , Bahçe Sulama , İstanbul Bahçe sulama Suyu">
+    <meta name="robots" content="index,follow" />
+
+
+</head>
+
+<body>
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="img/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+
+
+        let loader = document.getElementById('preloader-active');
+
+
+
+        window.addEventListener('load', setTimeout(function () {
+
+
+            loader.style.display = 'none';
+
+        }, 2000))
+
+
+
+    </script>
+
+    <div class="wp-icon" onclick="goWp()"></div>
+    <script>
+        function goWp() {
+
+
+
+            window.location = 'https://wa.me/905522295034';
+        }
+    </script>
+    <div class="header" style="clear: both;">
+        <div class="h-logo">
+
+        </div>
+
+
+        <div class="h-tel">
+            <a href="https://wa.me/905522295034"> <i class='fa fa-phone' style="z-index: 1000;"></i> 0552 229 50 34</a>
+        </div>
+        <div class="h-youtube"><a href="https://www.youtube.com/channel/UCi_QZqO9pDbHgEsfyQv6ClA"
+                class="fa fa-youtube-play"
+                style="font-size: 2.5vw; color:red ; opacity: .7; text-decoration: none;"></a>
+        </div>
+
+
+        <div class="menu" id="menu">
+
+
+
+
+
+
+            <a href="#about">Hakkımızda</a>
+            <a href="#galeri">Galeri</a>
+
+            <a href="#iletisim">İletisim</a>
+
+
+
+
+
+
+        </div>
+
+        <div class="h-slider">
+
+
+            <div class="slider">
+
+                <img class="img-hide" src="img/2.jpeg" alt="">
+                <img class="img-hide" src="img/havuz3.jpg" alt="">
+                <img class="img-hide " src="img/depo.jpg" alt="">
+                <img class="img-hide" src="img/peyzaj-sulama.webp" alt="">
+                <img class="img-hide " src="img/insaat-sulama.webp" alt="">
+                <img class="img-hide" src="img/havuz-rsm.jpg" alt="">
+
+                <img class="img-hide" src="img/hvz.jpeg" alt="">
+                <img class="img-hide" src="img/hvz3.jpeg" alt="">
+
+                <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+
+                    function plusDivs(n) {
+                        showDivs(slideIndex += n);
+                    }
+                    function currentDiv(n) {
+                        showDivs(slideIndex = n);
+                    }
+                    function showDivs(n) {
+                        var i;
+                        var x = document.getElementsByClassName("img-hide");
+                        if (n > x.length) { slideIndex = 1 }
+                        if (n < 1) { slideIndex = x.length }
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        x[slideIndex - 1].style.display = "block";
+
+                        var dots = document.getElementsByClassName("dot");
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(".dot", "");
+
+                        }
+                        x[slideIndex - 1].style.display = "block";
+
+                    }
+                    var slideIndex = 0;
+                    carousel();
+
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("img-hide");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > x.length) { slideIndex = 1 }
+                        x[slideIndex - 1].style.display = "block";
+                        setTimeout(carousel, 10000);
+                    }
+
+                </script>
+
+            </div>
+
+
+        </div>
+        <a href="javascript:plusDivs(-1)" class="geri"> </a>
+        <a href="javascript:plusDivs(1)" class="ileri"> </a>
+
+        <div class="left-hizmetler">
+            <div class="h-ulas">
+
+
+                <a href="https://wa.me/905522295034"> <i class='fa fa-phone'></i> 0552 229 50 34</a>
+
+            </div>
+
+        </div>
+        <div class="right-hizmetler">
+            <h2>Hizmetlerimiz</h2>
+            <div class="h-cont">
+                <p id="right-hzmt">Havuz Dolumu</p>
+                <p id="left-hzmt">Peyzaj Suyu</p>
+                <p id="left2">Depo Dolumu</p>
+            </div>
+        </div>
+
+    </div>
+    <script>
+
+        var metin = ["Tanker Suyu ", "Tanker ile İçme suyu ", " Havuz suyu ", "Havuz Dolumu", "Kullanma Suyu", " Depo Suyu ", " Sanayi Suyu", " Bahçe Suyu"]
+        var mmetin = ["Depo Dolumu", "İnşaat Suyu", "Peyzaj Suyu", "Kiralık Arazöz", "Arazöz Kiralama", "Oto Yıkama Suyu", "Yol Yıkama", "İnşaat Yıkım Sulama"]
+
+        let i = 0
+        setInterval(function () {
+            if (i >= metin.length) {
+                i = 0
+            }
+            document.getElementById('right-hzmt').innerHTML = metin[i++]
+            document.getElementById('left-hzmt').innerHTML = mmetin[i++]
+            document.getElementById('left2').innerHTML = mmetin[i++]
+            document.getElementById('right-2').innerHTML = metin[i++]
+        }, 2500)
+
+
+    </script>
+
+
+
+    <div class="content-text">
+        <div class="col3">
+            <article>
+
+
+                <h2>Hizmet Verdiğimiz Bölgeler</h2>
+                <p>
+                    İstanbul Avrupa <br>
+                    Tekirdağ <br>
+                    Esenyurt <br>
+                    Beylikdüzü <br>
+                    Avcılar <br>
+                    Çatalca <br>
+                    Esenyurt <br>
+                    Küçükçekmece <br>
+                    Bakırköy <br>
+                    Bahçeşehir <br>
+                    Maramara Ereğlisi <br>
+                    Çorlu <br>
+                    Çerkezköy
+                    <br> Ergene
+                </p>
+            </article>
+        </div>
+        <div class="col3">
+
+            <article>
+
+                <h2>Hizetlerimiz</h2>
+                <p>
+                    Tanker Suyu <br>
+                    Tanker ile İçme suyu <br> Havuz suyu <br> Havuz Dolumu <br> Kullanma Suyu <br> Depo Suyu <br> Sanayi
+                    Suyu <br> Bahçe Suyu <br> Depo Dolumu <br> İnşaat Suyu <br> Peyzaj Suyu <br> Kiralık Arazöz <br>
+                    Arazöz Kiralama <br>
+                </p>
+            </article>
+        </div>
+        <div class="col3" id="referanslar">
+            <article>
+                <h2>Referanslar</h2>
+                <div class="referanslar">
+
+
+
+                    <div class="referanslar">
+                        <section class="customer-logos slider">
+
+
+                            <div class="slide"><img src="referanslar/asoyinsaat.png"></div>
+                            <div class="slide"><img src="referanslar/AydurLogo3d.png"></div>
+                            <div class="slide"><img src="referanslar/demirtas-logo.png"></div>
+                            <div class="slide"><img src="referanslar/hancicatering-logo-1.png "></div>
+                            <div class="slide"><img src="referanslar/ihlas-holding-logo.png"></div>
+                            <div class="slide"><img src="referanslar/intek.webp"></div>
+
+                            <div class="slide"><img src="referanslar/kibritci.png"></div>
+                            <div class="slide"><img src="referanslar/kurularyapi.png"></div>
+                            <div class="slide"><img src="referanslar/kurumsalyapi.png"></div>
+
+                            <div class="slide"><img src="referanslar/sogutinsaat.png"></div>
+                            <div class="slide"><img src="referanslar/temaistanbul.png"></div>
+
+                            <div class="slide"><img src="referanslar/temaistanbul2.png"></div>
+                            <div class="slide"><img src="referanslar/temaistanbulbahce.png"></div>
+                            <div class="slide"><img src="referanslar/temawordl.png"></div>
+
+                            <div class="slide"><img src="referanslar/unitedgroup.png"></div>
+
+                        </section>
+                        <section class="customer-logoss slider">
+
+
+
+                            <div class="slide"><img src="referanslar/intek.webp"></div>
+
+                            <div class="slide"><img src="referanslar/kibritci.png"></div>
+                            <div class="slide"><img src="referanslar/kurularyapi.png"></div>
+                            <div class="slide"><img src="referanslar/kurumsalyapi.png"></div>
+
+                            <div class="slide"><img src="referanslar/sogutinsaat.png"></div>
+                            <div class="slide"><img src="referanslar/temaistanbul.png"></div>
+
+                            <div class="slide"><img src="referanslar/temaistanbul2.png"></div>
+                            <div class="slide"><img src="referanslar/temaistanbulbahce.png"></div>
+                            <div class="slide"><img src="referanslar/temawordl.png"></div>
+
+                            <div class="slide"><img src="referanslar/unitedgroup.png"></div>
+                            <div class="slide"><img src="referanslar/asoyinsaat.png"></div>
+                            <div class="slide"><img src="referanslar/AydurLogo3d.png"></div>
+                            <div class="slide"><img src="referanslar/demirtas-logo.png"></div>
+                            <div class="slide"><img src="referanslar/hancicatering-logo-1.png "></div>
+                            <div class="slide"><img src="referanslar/ihlas-holding-logo.png"></div>
+
+                        </section>
+                        <section class="customer-logos slider">
+
+                            <div class="slide"><img src="referanslar/sogutinsaat.png"></div>
+                            <div class="slide"><img src="referanslar/temaistanbul.png"></div>
+
+                            <div class="slide"><img src="referanslar/temaistanbul2.png"></div>
+                            <div class="slide"><img src="referanslar/temaistanbulbahce.png"></div>
+                            <div class="slide"><img src="referanslar/temawordl.png"></div>
+
+                            <div class="slide"><img src="referanslar/unitedgroup.png"></div>
+                            <div class="slide"><img src="referanslar/asoyinsaat.png"></div>
+                            <div class="slide"><img src="referanslar/AydurLogo3d.png"></div>
+                            <div class="slide"><img src="referanslar/demirtas-logo.png"></div>
+                            <div class="slide"><img src="referanslar/hancicatering-logo-1.png "></div>
+                            <div class="slide"><img src="referanslar/ihlas-holding-logo.png"></div>
+                            <div class="slide"><img src="referanslar/intek.webp"></div>
+
+                            <div class="slide"><img src="referanslar/kibritci.png"></div>
+                            <div class="slide"><img src="referanslar/kurularyapi.png"></div>
+                            <div class="slide"><img src="referanslar/kurumsalyapi.png"></div>
+
+
+
+                        </section>
+
+                    </div>
+
+
+
+
+                    <script src="carousel.js"></script>
+
+
+
+                </div>
+
+            </article>
+        </div>
+
+
+    </div>
+    <div class="about-content" id="about">
+        <h2></h2>
+        <article>
+            <p>
+                Arnavutköy havuz suyu, Avcılar havuz suyu, Bağcılar havuz suyu, Bahçelievler havuz suyu, Bakırköyhavuz
+                suyu, Başakşehir havuz suyu, Bayrampaşahavuz suyu, Beşiktaş havuz suyu, Beylikdüzü havuz suyu, Beyoğlu
+                havuz suyu, Büyükçekmecehavuz suyu, Çatalca havuz suyu, Esenler havuz suyu, Esenyurt havuz suyu, Eyüp
+                havuz suyu, Fatih havuz suyu, Gaziosmanpaşa havuz suyu, Güngören havuz suyu, Kağıthane havuz suyu, Küçük
+                çekmece havuz suyu, Sarıyer havuz suyu, Silivri havuz suyu, Sultangazi havuz suyu, Şişli, havuz suyu,
+                Zeytinburnu havuz suyu,</p>
+        </article>
+    </div>
+
+
+    <h2 class="gal-h2" id="galeri">Galeri</h2>
+
+
+    </div>
+
+    <div class="galeri-container">
+
+        <div class="image-container">
+            <div class="image"><img src="img/1.jpeg" alt=""></div>
+            <div class="image"><img src="img/2.jpeg" alt=""></div>
+            <div class="image"><img src="img/bahce.jpg" alt=""></div>
+            <div class="image"><img src="img/3.jpeg" alt=""></div>
+
+            <div class="image"><img src="img/peyzaj-sulama.webp" alt=""></div>
+            <div class="image"><img src="img/5.jpeg" alt=""></div>
+            <div class="image"><img src="img/6.jpeg" alt=""></div>
+
+            <div class="image"><img src="img/havuz3.jpg" alt=""></div>
+
+
+
+
+            <div class="image"><img src="img/yolyıkama.jpg" alt=""></div>
+            <div class="image"><img src="img/havuz-dolum.jpg" alt=""></div>
+        </div>
+
+        <div class="popup-image">
+            <span>&times;</span>
+            <img src="tanker-img/1.jpeg" alt="">
+        </div>
+
+        <script>
+            document.querySelectorAll('.image-container img').forEach(image => {
+
+                image.onclick = () => {
+                    document.querySelector('.popup-image').style.display = 'block';
+
+                    document.querySelector('.popup-image img').src = image.getAttribute('src')
+                }
+
+
+            })
+
+            document.querySelector('.popup-image span').onclick = () => {
+                document.querySelector('.popup-image').style.display = 'none'
+            }
+        </script>
+    </div>
+
+    <div class="kalite">
+        <h2>Kalite Asla Tesadüf Değildir</h2>
+        <div class="col3">
+
+            <img id="humans" src="img/selection.png" alt="">
+            <p>Müşteri Memnuniyeti</p>
+        </div>
+        <div class="col3">
+
+            <img id="humans" src="icon/clock.png" alt="">
+            <p>Her Zaman Destek</p>
+        </div>
+        <div class="col3">
+
+            <img id="humans" src="img/tech.png" alt="">
+            <p>Son Teknoloji</p>
+        </div>
+    </div>
+
+
+    <div class="footer">
+
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+
+            <defs>
+
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+
+            </defs>
+
+            <g class="parallax">
+
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="#b4eef9" />
+
+                <use xlink:href="#gentle-wave" x="48" y="3" fill=" #00fff7" />
+
+                <use xlink:href="#gentle-wave" x="48" y="5" fill=" #00caff " />
+
+                <use xlink:href="#gentle-wave" x="48" y="7" fill=" #00a1ff" />
+
+            </g>
+
+        </svg>
+
+        <div class="footer-icerik">
+            <div class="f-col">
+                <img src="img/yeniii.png" alt="">
+            </div>
+            <div class="f-col">
+                <h2>İletişim Bilgileri:</h2>
+                <p>
+                    Adress: <br>
+                    Ferhatpaşa Mahhallesi Hazine Sk. No:3 G/20 <br>
+                    Çatalca/İSTANBUL
+                </p>
+            </div>
+            <div class="f-col f-col3" id="iletisim">
+
+                <a href="https://wa.me/905522295034" class="fa fa-whatsapp" style="color: green;"> 0552 229 50 34</a>
+                <br>
+                <a href="https://wa.me/905522295034" class="fa fa-phone" style="color:black;"> 0552 229 50 34</a><br>
+                <a href="https://www.youtube.com/channel/UCi_QZqO9pDbHgEsfyQv6ClA" class="fa fa-youtube-play"
+                    style="color:red ;">Yıldırım Tanker Su Hizmeti</a>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+tüm hakları saklıdır.
